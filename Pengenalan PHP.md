@@ -747,7 +747,7 @@ Dengan menggunakan fungsi dalam PHP, kita dapat mengorganisir kode dengan lebih 
 ### Get Method
 #### Penjelasan 
 
-
+Metode GET adalah salah satu cara untuk mengirimkan data dari sisi klien (browser) ke sisi server (PHP) melalui URL. Data yang dikirimkan melalui metode GET akan terlihat dalam URL.
 
 #### Program 
 
@@ -807,14 +807,10 @@ $umur = $_GET["umur"];
 
 ![php dasar](get.jpg)
 
-#### Kesimpulan 
-
-
-
 ### Post Method
 #### Penjelasan 
 
-
+Metode POST adalah salah satu cara untuk mengirimkan data dari sisi klien (browser) ke sisi server (PHP) melalui body request HTTP. Data yang dikirimkan melalui metode POST tidak akan terlihat dalam URL.
 
 #### Program 
 
@@ -870,8 +866,3 @@ var_dump($_POST);
 #### Hasil
 
 ![php dasar](post.jpg)
-
-#### Kesimpulan 
-
-
-
